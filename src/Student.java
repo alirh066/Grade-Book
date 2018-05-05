@@ -121,11 +121,11 @@ public class Student {
 	public String generateID(ArrayList<Student> students) {
 		String id = generateNumber();
 		while (idExist(students, id) == true) {
-			ID = generateNumber();
+			id = generateNumber();
 		}
-		return ID;
+		return ID = id;
 	}
-
+  
 	public String generateNumber() {
 		String result = "";
 		for (int i = 1; i <= 11; i++) {
